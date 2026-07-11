@@ -1,5 +1,53 @@
 # Changelog
 
+## [2026.7.6](https://github.com/jdx/mise/compare/v2026.7.5..v2026.7.6) - 2026-07-11
+
+### 🐛 Bug Fixes
+
+- **(config)** warn about unsupported semver ranges by @risu729 in [#10916](https://github.com/jdx/mise/pull/10916)
+- **(toolset)** preserve ref selector install identity by @risu729 in [#10942](https://github.com/jdx/mise/pull/10942)
+
+### 📦️ Dependency Updates
+
+- update rust docker digest to 44637ff by @renovate[bot] in [#10901](https://github.com/jdx/mise/pull/10901)
+- update ghcr.io/jdx/mise:deb docker digest to c5e848b by @renovate[bot] in [#10899](https://github.com/jdx/mise/pull/10899)
+- update ghcr.io/jdx/mise:alpine docker digest to 94d8801 by @renovate[bot] in [#10898](https://github.com/jdx/mise/pull/10898)
+- update rust crate demand to v2.0.3 by @renovate[bot] in [#10903](https://github.com/jdx/mise/pull/10903)
+- update phf to 0.14 by @renovate[bot] in [#10906](https://github.com/jdx/mise/pull/10906)
+- update ubuntu docker tag to resolute-20260627 by @renovate[bot] in [#10905](https://github.com/jdx/mise/pull/10905)
+- update ghcr.io/jdx/mise:rpm docker digest to 4363aec by @renovate[bot] in [#10900](https://github.com/jdx/mise/pull/10900)
+- update rust crate usage-lib to v3.5.4 by @renovate[bot] in [#10904](https://github.com/jdx/mise/pull/10904)
+
+### 📦 Registry
+
+- add git-town ([aqua:git-town/git-town](https://github.com/git-town/git-town)) by @joealden in [#10935](https://github.com/jdx/mise/pull/10935)
+
+### Chore
+
+- **(release)** skip ai reviews for release prs by @jdx in [#10891](https://github.com/jdx/mise/pull/10891)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (4)
+
+- [`cachix/secretspec`](https://github.com/cachix/secretspec)
+- [`ctxrs/ctx`](https://github.com/ctxrs/ctx)
+- [`nao1215/atago`](https://github.com/nao1215/atago)
+- [`supernovae-st/nika`](https://github.com/supernovae-st/nika)
+
+#### Updated Packages (10)
+
+- [`FairwindsOps/polaris`](https://github.com/FairwindsOps/polaris)
+- [`charmbracelet/glow`](https://github.com/charmbracelet/glow)
+- [`charmbracelet/vhs`](https://github.com/charmbracelet/vhs)
+- [`docker/buildx`](https://github.com/docker/buildx)
+- [`docker/compose`](https://github.com/docker/compose)
+- [`moby/buildkit`](https://github.com/moby/buildkit)
+- [`mpyw/suve`](https://github.com/mpyw/suve)
+- [`superradcompany/microsandbox`](https://github.com/superradcompany/microsandbox)
+- [`suzuki-shunsuke/asciinema-trim`](https://github.com/suzuki-shunsuke/asciinema-trim)
+- [`watchexec/cargo-watch`](https://github.com/watchexec/cargo-watch)
+
 ## [2026.7.5](https://github.com/jdx/mise/compare/v2026.7.4..v2026.7.5) - 2026-07-09
 
 ### 🚀 Features
